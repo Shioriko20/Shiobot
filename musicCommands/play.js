@@ -22,7 +22,7 @@ const { InteractionCollector } = require('discord.js');
 let isPaused = false;
 const youtubeSearchOptions = {
   maxResults: 1,
-  key: youtubeAPIKey,
+  key: AIzaSyAzIn47-NyyYvo31Yr34WqxR-y3XDQEloM,
 };
 
 const queue = [];
