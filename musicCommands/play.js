@@ -15,14 +15,14 @@ const YouTubeSearch = require('youtube-search');
 const { EmbedBuilder } = require('discord.js');
 const { updateHistory } = require('./historyUtils');
 const config = require('../config.json');
-const youtubeAPIKey = config.youtubeAPIKey;
+const youtubeAPIKey = 'AIzaSyAzIn47-NyyYvo31Yr34WqxR-y3XDQEloM';
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const { InteractionCollector } = require('discord.js');
 
 let isPaused = false;
 const youtubeSearchOptions = {
   maxResults: 1,
-  key: AIzaSyAzIn47-NyyYvo31Yr34WqxR-y3XDQEloM,
+  key: youtubeAPIKey,
 };
 
 const queue = [];
